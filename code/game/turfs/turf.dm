@@ -48,7 +48,7 @@ GLOBAL_LIST_EMPTY(station_turfs)
 	var/bullet_bounce_sound = 'sound/weapons/gun/general/mag_bullet_remove.ogg' //sound played when a shell casing is ejected ontop of the turf.
 	var/bullet_sizzle = FALSE //used by ammo_casing/bounce_away() to determine if the shell casing should make a sizzle sound when it's ejected over the turf
 							//IE if the turf is supposed to be water, set TRUE.
-
+	var/starlit = FALSE	//Only used for the Aurora Caelus event.
 	var/tiled_dirt = FALSE // use smooth tiled dirt decal
 
 	///Icon-smoothing variable to map a diagonal wall corner with a fixed underlay.
